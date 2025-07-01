@@ -3,7 +3,7 @@ function search(city) {
   var httpRequest = new XMLHttpRequest();
   httpRequest.open(
     "get",
-    `http://api.weatherapi.com/v1/forecast.json?key=5277360942a948fabec200511252706&q=${city}&days=3`
+    `https://api.weatherapi.com/v1/forecast.json?key=5277360942a948fabec200511252706&q=${city}&days=3`
   );
 
   httpRequest.responseType = "json";
