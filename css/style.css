@@ -1,0 +1,149 @@
+body {
+  color: #bfc1c8;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  background: #1e202b;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.navItem.active {
+  padding: 6px 20px !important;
+  border: 2px #009ad8 solid;
+  border-radius: 20px;
+  color: #009ad8 !important;
+}
+
+.navItem {
+  padding: 6px 20px !important;
+  border: 2px #009bd800 solid;
+  border-radius: 20px;
+  color: white;
+  transition: 0.3s;
+}
+
+.navItem:hover {
+  border: 2px #009ad8 solid;
+  color: #009ad8 !important;
+}
+
+.hero {
+  margin-top: 150px;
+  /* margin-bottom: 300px; */
+  padding: 70px 0px;
+  background-image: url(/images/banner.png);
+  background-size: cover;
+  min-height: 350px;
+  background-color: aqua;
+}
+
+.find-location .inText {
+  width: 100%;
+  padding: 20px 50px 20px 20px;
+  background: #1e202b;
+  color: white;
+}
+
+form input,
+form textarea,
+form select {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.weath{
+  font-size: 21px;
+  font-weight: 700;
+  padding: 2px;
+  margin: 0px;
+}
+
+.tag{
+  font-size: 13px;
+  font-weight: 400;
+  padding: 2px;
+  margin: 0;
+  color: #bfc1c8;
+}
+
+.downT h1 {
+  font-size: 80px;
+}
+
+.weather {
+  color: white;
+  margin-top: -150px;
+  margin-bottom: 50px;
+}
+.inBtn,.subs {
+  background: #009ad8;
+  color: white;
+  top: 5px;
+  right: 5px;
+    bottom: 5px;
+  padding: 0 50px;
+}
+
+.inner {
+  background-color: rgb(25, 29, 29);
+}
+
+#statusImg {
+  width: 120px;
+}
+
+.site-footer {
+  background: #262936;
+  padding: 50px 0;
+}
+
+.site-footer .subscribe-form {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.site-footer .subscribe-form input[type="text"] {
+  padding: 20px 100px 20px 20px;
+  background: #1e202b;
+  width: 100%;
+  color: white;
+}
+
+.aws {
+  padding: 20px;
+  background-color: #020202;
+  border-radius: 50%;
+}
+
+/* .site-footer .subscribe-form input[type="submit"] {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+}
+
+.button,
+form input[type="surbmit"],
+form input[type="buttron"] {
+  border: none;
+  background: #009ad8;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+} */
+
+form input,
+form textarea,
+form select {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+}

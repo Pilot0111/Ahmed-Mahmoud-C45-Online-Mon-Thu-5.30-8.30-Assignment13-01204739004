@@ -1,0 +1,212 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forecast</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container my-4">
+        <a class="navbar-brand d-flex justify-content-center ms-0" href="#">
+          <img
+            src="images/logo@2x.png"
+            alt="Logo"
+            width="60"
+            height="35"
+            class="d-inline-block align-self-center"
+          />
+          <div class="d-flex row ms-2">
+            <h1 class=" weath">Weather</h1>
+            <small class="tag"> tagline goes here </small>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0 gap-4">
+            <li class="nav-item">
+              <a class="nav-link active navItem" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navItem" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navItem" href="#">Live Cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navItem" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navItem" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container">
+        <form class="find-location position-relative">
+          <input
+            class="inText"
+            type="text"
+            placeholder="Find your location..."
+            id="search"
+          />
+          <input
+            class="inBtn position-absolute"
+            type="button"
+            value="Find"
+            id="submit"
+          />
+        </form>
+      </div>
+    </section>
+
+    <section class="weather">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="inner">
+              <div class="topT d-flex p-3 justify-content-between bg-gradient">
+                <p class="day m-0"></p>
+                <p class="date m-0"></p>
+              </div>
+              <div class="downT p-3 text-center">
+                <p class="city fs-4"></p>
+                <h1 class=" "><span class="numb"></span> <sup>o</sup> C</h1>
+                <img id="statusImg" src="" alt="" />
+                <div class="status fs-5"></div>
+                <p class="d-flex justify-content-around py-3">
+                  <span class="">
+                    <img src="images/icon-umberella.png" alt="" />
+                    <span class="humidity"></span>%
+                  </span>
+                  <span>
+                    <img src="images/icon-wind.png" alt="" />
+                    <span class="wind"></span>km/h
+                  </span>
+                  <span>
+                    <img src="images/icon-compass.png" alt="" />
+                    <span class="direction"></span>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="inner">
+              <div
+                class="topT d-flex p-3 justify-content-between bg-gradient"
+              >
+                <p class="day1 m-0"></p>
+                <p class="date1 m-0"></p>
+              </div>
+              <div class="downT p-3 text-center bg-gradient">
+                <p class="city1 fs-4"></p>
+                <h4 class="mt-5">
+                  Max. <span class="numb1"></span> <sup>o</sup> C
+                </h4>
+                <h4 class="mb-5">
+                  Min. <span class="numb1-1"></span> <sup>o</sup> C
+                </h4>
+                <img id="statusImg1" src="" alt="" />
+                <div class="status1 fs-5 mb-3"></div>
+                <p class="d-flex justify-content-around py-3">
+                  <span class="">
+                    <img src="images/icon-umberella.png" alt="" class="me-2" />
+                    Avg. <span class="humidity1"></span> %
+                  </span>
+                  <span>
+                    <img src="images/icon-wind.png" alt="" class="me-2" />Max.
+                    <span class="wind1"> </span> km/h
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="inner">
+              <div class="topT d-flex p-3 justify-content-between bg-gradient">
+                <p class="day2 m-0"></p>
+                <p class="date2 m-0"></p>
+              </div>
+              <div class="downT p-3 text-center">
+                <p class="city2 fs-4"></p>
+                <h4 class="mt-5">
+                  Max. <span class="numb2"></span> <sup>o</sup> C
+                </h4>
+                <h4 class="mb-5">
+                  Min. <span class="numb2-1"></span> <sup>o</sup> C
+                </h4>
+                <img id="statusImg2" src="" alt="" />
+                <div class="status2 fs-5 mb-3"></div>
+                <p class="d-flex justify-content-around py-3">
+                  <span class="">
+                    <img src="images/icon-umberella.png" alt="" class="me-2" />
+                    Avg. <span class="humidity2"></span> %
+                  </span>
+                  <span>
+                    <img src="images/icon-wind.png" alt="" class="me-2" />Max.
+                    <span class="wind2"> </span> km/h
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <form action="#" class="subscribe-form">
+              <input
+                type="text"
+                placeholder="Enter your email to subscribe..."
+              />
+              <input type="submit" value="Subscribe" class="subs position-absolute"/>
+            </form>
+          </div>
+          <div class="col-md-3 ms-auto">
+            <div class="social-links d-flex gap-2">
+              <a class="" href="#"
+                ><i class="aws fa-brands fa-facebook fs-3"></i
+              ></a>
+              <a href="#"><i class="aws fa-brands fa-twitter fs-3"></i></a>
+              <a href="#"><i class="aws fa-brands fa-google-plus fs-3"></i></a>
+              <a href="#"><i class="aws fa-brands fa-pinterest fs-3"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <p class="colophon">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
